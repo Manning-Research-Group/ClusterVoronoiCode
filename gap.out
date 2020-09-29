@@ -1,0 +1,19 @@
+Initializing 200 cells with random positions as an initially Delaunay configuration in a square box... 
+Initializing 200 cells with random positions in a square box...
+ Total number of neighs = 1200
+mean force = (0,0)
+mean force = (8.18545e-14,2.91038e-13)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+timestep time per iteration currently at 0.0012
+
+mean force = (5.09317e-13,9.09495e-14)
+Mean q = -nan

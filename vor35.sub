@@ -1,0 +1,10 @@
+executable = /usr/local/bin/singularity
+arguments  = exec /home/elawsonk/sl7.img /home/elawsonk/cellGPU-master/vor35.sh
+
+output = vor35.out
+error = vor35.err
+log = vor35.log
+
+priority = 1
+queue
+                                

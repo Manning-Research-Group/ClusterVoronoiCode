@@ -1,0 +1,516 @@
+000 (5509049.000.000) 03/13 16:07:09 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+022 (5509049.000.000) 03/13 16:27:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:27:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:28:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:29:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:29:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:30:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:30:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:31:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:31:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:32:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:32:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:33:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:33:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:34:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:34:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:35:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:35:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:36:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:36:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:37:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:37:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:38:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:38:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:39:29 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:39:29 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:40:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:40:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:41:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:41:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:42:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:42:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:43:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:43:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+022 (5509049.000.000) 03/13 16:44:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@CRUSH-10-5-137-138 <10.5.137.138:9618?addrs=10.5.137.138-9618+[--1]-9618&noUDP&sock=3169_3fb7_3>
+...
+024 (5509049.000.000) 03/13 16:44:19 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@CRUSH-10-5-137-138, rescheduling job
+...
+001 (5509049.000.000) 03/13 16:45:20 Job executing on host: <10.5.218.183:9618?addrs=10.5.218.183-9618+[--1]-9618&noUDP&sock=2168_f5d1_3>
+...
+006 (5509049.000.000) 03/13 16:45:29 Image size of job updated: 11808
+	7  -  MemoryUsage of job (MB)
+	6220  -  ResidentSetSize of job (KB)
+...
+006 (5509049.000.000) 03/13 16:50:30 Image size of job updated: 11956
+	7  -  MemoryUsage of job (MB)
+	6228  -  ResidentSetSize of job (KB)
+...
+005 (5509049.000.000) 03/14 05:19:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 12:30:59, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 12:30:59, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1506051
+	   Memory (MB)          :        7        1         1
+...
+000 (5532476.000.000) 03/23 13:06:18 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5532476.000.000) 03/23 13:06:36 Job executing on host: <10.5.206.49:9618?addrs=10.5.206.49-9618+[--1]-9618&noUDP&sock=2160_28a8_3>
+...
+006 (5532476.000.000) 03/23 13:06:44 Image size of job updated: 11840
+	7  -  MemoryUsage of job (MB)
+	6248  -  ResidentSetSize of job (KB)
+...
+006 (5532476.000.000) 03/23 13:11:44 Image size of job updated: 12052
+	7  -  MemoryUsage of job (MB)
+	6320  -  ResidentSetSize of job (KB)
+...
+006 (5532476.000.000) 03/23 13:36:48 Image size of job updated: 12068
+	7  -  MemoryUsage of job (MB)
+	6336  -  ResidentSetSize of job (KB)
+...
+006 (5532476.000.000) 03/23 14:56:56 Image size of job updated: 12104
+	7  -  MemoryUsage of job (MB)
+	6356  -  ResidentSetSize of job (KB)
+...
+006 (5532476.000.000) 03/23 18:07:15 Image size of job updated: 12136
+	7  -  MemoryUsage of job (MB)
+	6388  -  ResidentSetSize of job (KB)
+...
+006 (5532476.000.000) 03/23 18:37:17 Image size of job updated: 12180
+	7  -  MemoryUsage of job (MB)
+	6432  -  ResidentSetSize of job (KB)
+...
+005 (5532476.000.000) 03/24 01:43:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 12:33:54, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 12:33:54, Sys 0 00:00:15  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505267
+	   Memory (MB)          :        7        1         1
+...
+000 (5533341.000.000) 03/24 15:58:33 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5533341.000.000) 03/24 15:58:42 Job executing on host: <10.5.206.108:9618?addrs=10.5.206.108-9618+[--1]-9618&noUDP&sock=3093_1e84_3>
+...
+006 (5533341.000.000) 03/24 15:58:51 Image size of job updated: 11844
+	7  -  MemoryUsage of job (MB)
+	6228  -  ResidentSetSize of job (KB)
+...
+006 (5533341.000.000) 03/24 16:03:51 Image size of job updated: 11988
+	7  -  MemoryUsage of job (MB)
+	6232  -  ResidentSetSize of job (KB)
+...
+006 (5533341.000.000) 03/24 17:34:00 Image size of job updated: 12012
+	7  -  MemoryUsage of job (MB)
+	6232  -  ResidentSetSize of job (KB)
+...
+006 (5533341.000.000) 03/24 18:19:05 Image size of job updated: 12020
+	7  -  MemoryUsage of job (MB)
+	6232  -  ResidentSetSize of job (KB)
+...
+005 (5533341.000.000) 03/24 22:10:30 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 06:10:39, Sys 0 00:00:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 06:10:39, Sys 0 00:00:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505168
+	   Memory (MB)          :        7        1         1
+...
+000 (5538344.000.000) 03/25 11:55:14 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5538344.000.000) 03/25 11:55:33 Job executing on host: <10.5.206.91:9618?addrs=10.5.206.91-9618+[--1]-9618&noUDP&sock=2555_1890_3>
+...
+006 (5538344.000.000) 03/25 11:55:41 Image size of job updated: 10996
+	7  -  MemoryUsage of job (MB)
+	6228  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/25 12:00:41 Image size of job updated: 11024
+	7  -  MemoryUsage of job (MB)
+	6228  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/25 12:05:41 Image size of job updated: 11460
+	7  -  MemoryUsage of job (MB)
+	6656  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/25 12:15:42 Image size of job updated: 11604
+	7  -  MemoryUsage of job (MB)
+	6664  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/26 04:02:16 Image size of job updated: 11624
+	7  -  MemoryUsage of job (MB)
+	6684  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/27 00:04:23 Image size of job updated: 11636
+	7  -  MemoryUsage of job (MB)
+	6696  -  ResidentSetSize of job (KB)
+...
+006 (5538344.000.000) 03/27 04:59:52 Image size of job updated: 11648
+	7  -  MemoryUsage of job (MB)
+	6708  -  ResidentSetSize of job (KB)
+...
+000 (5556554.000.000) 03/27 15:03:36 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5556554.000.000) 03/27 15:03:42 Job executing on host: <10.5.201.84:9618?addrs=10.5.201.84-9618+[--1]-9618&noUDP&sock=2149_9d1d_3>
+...
+006 (5556554.000.000) 03/27 15:03:51 Image size of job updated: 11820
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/27 15:08:52 Image size of job updated: 11852
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/27 15:23:53 Image size of job updated: 11920
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/27 15:58:57 Image size of job updated: 11932
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/27 16:18:58 Image size of job updated: 11936
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/27 16:28:59 Image size of job updated: 11984
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/28 13:11:06 Image size of job updated: 12032
+	7  -  MemoryUsage of job (MB)
+	6280  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/28 15:01:18 Image size of job updated: 12036
+	7  -  MemoryUsage of job (MB)
+	6284  -  ResidentSetSize of job (KB)
+...
+006 (5556554.000.000) 03/29 09:18:51 Image size of job updated: 142276
+	7  -  MemoryUsage of job (MB)
+	6284  -  ResidentSetSize of job (KB)
+...
+005 (5556554.000.000) 03/29 09:18:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 18:10:52, Sys 0 00:00:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 18:10:52, Sys 0 00:00:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505052
+	   Memory (MB)          :        7        1         1
+...
+004 (5538344.000.000) 03/30 10:05:46 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 4 21:01:56, Sys 0 00:06:23  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505056
+	   Memory (MB)          :        7        1         1
+...
+009 (5538344.000.000) 03/30 10:05:46 Job was aborted by the user.
+	via condor_rm (by user elawsonk)
+...
+000 (5620339.000.000) 04/16 12:58:53 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5620339.000.000) 04/16 12:58:57 Job executing on host: <10.5.183.191:9618?addrs=10.5.183.191-9618+[--1]-9618&noUDP&sock=1897_13a7_3>
+...
+006 (5620339.000.000) 04/16 12:59:06 Image size of job updated: 10976
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5620339.000.000) 04/16 13:04:07 Image size of job updated: 11008
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5620339.000.000) 04/16 13:19:08 Image size of job updated: 11052
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5620339.000.000) 04/16 13:24:09 Image size of job updated: 11072
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5620339.000.000) 04/16 14:04:12 Image size of job updated: 11076
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+006 (5620339.000.000) 04/16 14:19:14 Image size of job updated: 11112
+	7  -  MemoryUsage of job (MB)
+	6236  -  ResidentSetSize of job (KB)
+...
+000 (5620778.000.000) 04/16 15:01:13 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5620778.000.000) 04/16 15:01:18 Job executing on host: <10.5.190.198:9618?addrs=10.5.190.198-9618+[--1]-9618&noUDP&sock=2557_77c1_3>
+...
+006 (5620778.000.000) 04/16 15:01:27 Image size of job updated: 10988
+	7  -  MemoryUsage of job (MB)
+	6228  -  ResidentSetSize of job (KB)
+...
+004 (5620778.000.000) 04/16 15:02:50 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:01:32, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505047
+	   Memory (MB)          :        7        1         1
+...
+009 (5620778.000.000) 04/16 15:02:50 Job was aborted by the user.
+	via condor_rm (by user elawsonk)
+...
+004 (5620339.000.000) 04/16 15:03:29 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 02:04:22, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1506186
+	   Memory (MB)          :        7        1         1
+...
+009 (5620339.000.000) 04/16 15:03:29 Job was aborted by the user.
+	via condor_rm (by user elawsonk)
+...
+000 (5620779.000.000) 04/16 15:04:31 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5620779.000.000) 04/16 15:04:42 Job executing on host: <10.5.192.110:9618?addrs=10.5.192.110-9618+[--1]-9618&noUDP&sock=2555_1890_3>
+...
+006 (5620779.000.000) 04/16 15:04:51 Image size of job updated: 11724
+	7  -  MemoryUsage of job (MB)
+	6964  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 15:09:52 Image size of job updated: 11752
+	7  -  MemoryUsage of job (MB)
+	6964  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 15:24:53 Image size of job updated: 11828
+	7  -  MemoryUsage of job (MB)
+	6964  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 15:29:54 Image size of job updated: 11832
+	7  -  MemoryUsage of job (MB)
+	6964  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 16:14:57 Image size of job updated: 11868
+	7  -  MemoryUsage of job (MB)
+	6964  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 17:05:02 Image size of job updated: 11904
+	7  -  MemoryUsage of job (MB)
+	6980  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/16 17:10:03 Image size of job updated: 11912
+	7  -  MemoryUsage of job (MB)
+	6988  -  ResidentSetSize of job (KB)
+...
+006 (5620779.000.000) 04/17 20:45:58 Image size of job updated: 139652
+	7  -  MemoryUsage of job (MB)
+	6988  -  ResidentSetSize of job (KB)
+...
+005 (5620779.000.000) 04/17 20:45:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 05:25:51, Sys 0 00:01:36  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 05:25:51, Sys 0 00:01:36  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505041
+	   Memory (MB)          :        7        1         1
+...
+000 (5719076.000.000) 04/28 16:27:22 Job submitted from host: <10.5.0.46:9618?addrs=10.5.0.46-9618&noUDP&sock=2742093_9cf0_3>
+...
+001 (5719076.000.000) 04/28 16:27:32 Job executing on host: <10.5.192.167:9618?addrs=10.5.192.167-9618+[--1]-9618&noUDP&sock=2020_71cd_3>
+...
+006 (5719076.000.000) 04/28 16:27:41 Image size of job updated: 11776
+	7  -  MemoryUsage of job (MB)
+	6196  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 16:32:42 Image size of job updated: 12084
+	7  -  MemoryUsage of job (MB)
+	6496  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 16:37:43 Image size of job updated: 12108
+	7  -  MemoryUsage of job (MB)
+	6496  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 16:52:45 Image size of job updated: 12224
+	7  -  MemoryUsage of job (MB)
+	6504  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 16:57:45 Image size of job updated: 12244
+	7  -  MemoryUsage of job (MB)
+	6504  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 17:12:47 Image size of job updated: 12268
+	7  -  MemoryUsage of job (MB)
+	6528  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 17:27:49 Image size of job updated: 12276
+	7  -  MemoryUsage of job (MB)
+	6536  -  ResidentSetSize of job (KB)
+...
+006 (5719076.000.000) 04/28 18:32:56 Image size of job updated: 12328
+	7  -  MemoryUsage of job (MB)
+	6588  -  ResidentSetSize of job (KB)
+...
+005 (5719076.000.000) 04/30 09:41:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 17:10:57, Sys 0 00:00:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 17:10:57, Sys 0 00:00:06  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :        5        5   1505977
+	   Memory (MB)          :        7        1         1
+...

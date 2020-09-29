@@ -1,0 +1,10 @@
+executable = /usr/local/bin/singularity
+arguments  = exec /home/elawsonk/sl7.img /home/elawsonk/cellGPU-master/test1.sh
+
+output = test.out
+error = test.err
+log = test.log
+
+priority = 1
+queue
+                                
