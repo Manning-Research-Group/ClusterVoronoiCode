@@ -18,7 +18,7 @@ private:
     typedef shared_ptr<VoronoiQuadraticEnergyWithConc> STATE;
     int Nv; //!< number of vertices in delaunay triangulation
     NcDim *recDim, *NvDim, *dofDim, *boxDim, *unitDim, *concDim, *vertDim, *tensionDim; //!< NcDims we'll use
-    NcVar *posVar, *typeVar, *directorVar, *BoxMatrixVar, *timeVar, *means0Var,*exVar, *concVar, *vertVar, *locVar, *actuals0Var, *cellvelVar, *cellconVar, *calcCellVelVar, *tensionVar, *forceVar, *tenforceVar; //!<NcVars we'll use
+    NcVar *posVar, *typeVar, *directorVar, *BoxMatrixVar, *timeVar, *means0Var,*exVar, *concVar, *vertVar, *locVar, *actuals0Var, *cellvelVar, *cellconVar, *calcCellVelVar, *tensionVar, *forceVar, *tenforceVar, *alignVar; //!<NcVars we'll use
     bool exclusions; //!< Keep track of whether particle exlucsions should be saved
     int Current;    //!< keeps track of the current record when in write mode
 

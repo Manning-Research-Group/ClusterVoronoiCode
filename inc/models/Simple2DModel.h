@@ -42,6 +42,10 @@ class Simple2DModel
         virtual void enforceTopology(){};
         //!copy the models current set of forces to the variable
         virtual void getForces(GPUArray<Dscalar2> &forces) = 0;
+        //!copy the models current set of forces to the variable
+        virtual void getalginment(GPUArray<Dscalar2> &conalign) = 0; 
+        //!copy the models current set of forces to the variable
+        virtual void getGradvariables(GPUArray<Dscalar> &gradvar) = 0;        
         //!Return the maximum force
         virtual Dscalar getMaxForce(){return 0.;};
         //!return a reference to the GPUArray of positions

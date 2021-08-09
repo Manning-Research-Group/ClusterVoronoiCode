@@ -54,9 +54,10 @@ class voronoiModelBase : public Simple2DActiveCell
         virtual void moveDegreesOfFreedom(GPUArray<Dscalar2> & displacements,Dscalar scale = 1.);
         //!return the forces
         virtual void getForces(GPUArray<Dscalar2> &forces){forces = cellForces;};
+        //!return the forces
+        //virtual void getalginment(GPUArray<Dscalar2> &conalign){conalign = gradalign;};
         //!return a reference to the GPUArray of the current forces
         virtual GPUArray<Dscalar2> & returnForces(){return cellForces;};
-
         //!Compute cell geometry on the CPU
         virtual void computeGeometryCPU();
         //!call gpu_compute_geometry kernel caller
@@ -67,6 +68,9 @@ class voronoiModelBase : public Simple2DActiveCell
 
         //!Kill the indexed cell by simply removing it from the simulation
         virtual void cellDeath(int cellIndex);
+
+        //!Change the box size
+        virtual void compressBox(Dscalar percentChangeX, Dscalar percentChangeY);
 
         //!move particles on the GPU
         void movePoints(GPUArray<Dscalar2> &displacements,Dscalar scale);

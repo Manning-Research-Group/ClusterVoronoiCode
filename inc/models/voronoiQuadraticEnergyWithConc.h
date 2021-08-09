@@ -13,22 +13,32 @@ class VoronoiQuadraticEnergyWithConc : public VoronoiQuadraticEnergy
     public:
         //!initialize with random positions in a square box
         //voronoiQuadraticEnergyWithConc(int n,bool reprod = false) : VoronoiQuadraticEnergy(n,reprod){};
-        VoronoiQuadraticEnergyWithConc(int n,bool reprod = false);
+        VoronoiQuadraticEnergyWithConc(int n, Dscalar Lenx, Dscalar Leny,bool reprod = false);
         //! initialize with random positions and set all cells to have uniform target A_0 and P_0 parameters
         //voronoiQuadraticEnergyWithConc(int n, Dscalar A0, Dscalar P0,bool reprod = false) : VoronoiQuadraticEnergy(n,A0,P0,reprod){};
-        VoronoiQuadraticEnergyWithConc(int n, Dscalar A0, Dscalar P0,bool reprod = false);
+        VoronoiQuadraticEnergyWithConc(int n, Dscalar A0, Dscalar P0, Dscalar Lenx, Dscalar Leny,bool reprod = false);
         //!compute the geometry and get the forces
         virtual void computeForces();
 
-        virtual void InPolygon(int cell, int concgrid, int currentnum, int checkup, int checkdown, int checkleft, int checkright, int uneven, Dscalar ybias, Dscalar xbias);
+        virtual void InPolygon(int cell, int concgrid, int currentnum, int checkup, int checkdown, int checkleft, int checkright, Dscalar ybias, Dscalar xbias);
         virtual double VertAngle(double p1x, double p1y, double p2x, double p2y);
 
         virtual Dscalar computeEnergy();
         //!Compute force sets on the GPU
         virtual void ComputeForceSetsGPU();
 
+        //Define a cluster of cells
         virtual void setCluster(int nclust);
 
+        //Define variables for gradient
+        virtual void setGradvariables(Dscalar deltac, Dscalar deltat, Dscalar degradTau, int CIL, Dscalar cellTau);
+
+        //!return the CIL alignment
+        virtual void getalginment(GPUArray<Dscalar2> &conalign){conalign = gradalign;};
+
+        //!return the gradient variables
+        virtual void getGradvariables(GPUArray<Dscalar> &gradvar){gradvar = gradientvar;};
+        
         //!Compute the net force on particle i on the CPU with only a single tension value
         virtual void computeVoronoiSimpleTensionForceCPU(int i);
 
@@ -49,6 +59,8 @@ class VoronoiQuadraticEnergyWithConc : public VoronoiQuadraticEnergy
         Dscalar getSurfaceTension(){return gamma;};
 
         GPUArray<Dscalar> concentration;
+        GPUArray<Dscalar> boxdim;
+        GPUArray<Dscalar> gradientvar;
         GPUArray<Dscalar> linetension;
         GPUArray<Dscalar2> absvert;
         GPUArray<Dscalar> conccell;
@@ -60,6 +72,7 @@ class VoronoiQuadraticEnergyWithConc : public VoronoiQuadraticEnergy
         GPUArray<Dscalar2> pastcellpos;
         GPUArray<Dscalar2> cellvelocity;
         GPUArray<Dscalar2> celltenforces;
+        GPUArray<Dscalar2> gradalign;
 
 
     protected:

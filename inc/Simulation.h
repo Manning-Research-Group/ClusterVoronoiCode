@@ -30,6 +30,9 @@ class Simulation : public enable_shared_from_this<Simulation>
         //!Call every updater to advance one time step
         void performTimestep();
 
+        //!Change box size
+        void setBoxAndScale(BoxPtr _oldbox, BoxPtr _newbox); 
+
         //!return a shared pointer to this Simulation
         shared_ptr<Simulation> getPointer(){ return shared_from_this();};
         //!The configuration of cells

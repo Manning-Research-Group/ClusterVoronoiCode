@@ -53,7 +53,10 @@ class Simple2DCell : public Simple2DModel
 
         //!copy the models current set of forces to the variable
         virtual void getForces(GPUArray<Dscalar2> &forces){};
+        
+        virtual void getalginment(GPUArray<Dscalar2> &conalign){};
 
+        virtual void getGradvariables(GPUArray<Dscalar> &gradvar){};
         //!move the degrees of freedom
         virtual void moveDegreesOfFreedom(GPUArray<Dscalar2> &displacements,Dscalar scale = 1.){};
 
@@ -205,6 +208,11 @@ class Simple2DCell : public Simple2DModel
         cellVertexNum[c] is an integer storing the number of vertices that make up the boundary of cell c.
         */
         GPUArray<int> cellVertexNum;
+
+        GPUArray<Dscalar2> gradalign;
+        
+        GPUArray<Dscalar> gradientvar;
+
 
         //!an array containing net force on each vertex
         GPUArray<Dscalar2> vertexForces;
