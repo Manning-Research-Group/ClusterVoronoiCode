@@ -8,30 +8,14 @@ from time import sleep
 num_runs_per_param_set = 1
 
 ## Set the other important parameters
-#initSteps = int(1)
 ncells = int(500)
-#nclust_vals = (np.linspace(1, 13, 3)).round(1)
-#nclust_vals = [100,200,500,1000,5000]
-#nclust = 7
-#nclust_vals = [15]
-#nclust_vals = [10,15,20]
-nclust_vals = [1,20]
-#nclust_vals =[30,35,40,45,50]
-#nclust_vals = [1,5,10,15,20,25,30,35,40,45,50]
-#T_vals= np.logspace(-3,0,num=8,base=10)
-#T_vals= [0.01,0.05,5]
+nclust_vals = nclust_vals = [1,2,4,5,6,8,10,12,15,20,25,30,35,40]
 T_vals = [1]
-#T_vals= [0.1,0.5,1,2,10]
-#T_vals = [0.03, 0.075, 0.15, 0.3, 0.75]
-#T_vals = [1.05, 1.35, 1.65, 1.95]
-#trial_amount = np.linspace(0,29,30)
-#trial_amount = [1]
-#trial_amount = np.linspace(65,79,15)
-trial_amount = np.linspace(0,4,5)
+trial_amount = np.linspace(0,49,50)
 sbar = 1;
-dels = 3;
+dels = 5;
 loc = 1;
-#dt_amount = [0.0005]
+
 dt_amount=[0.001];
 
 #Init
@@ -70,7 +54,7 @@ for time in dt_amount:
                         shfile.write("""# !/bin/bash                                                                                  
             export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/elawsonk/cudalibs:/usr/local/cuda/lib64:/usr/local/lib64
 
-            """ + str(runfile) + """ -n """ + str(ncells) + """ -v """ + str(T) + """ -w """ + str(nclust) + """ -h """ + str(trial) + """ -e """ + str(time) + """ -t """ + str(5e4*0.001/time) + """ -i """ + str(100*0.001/time) 
+            """ + str(runfile) + """ -n """ + str(ncells) + """ -v """ + str(T) + """ -w """ + str(nclust) + """ -h """ + str(trial) + """ -e """ + str(time) + """ -t """ + str(1e5*0.001/time) + """ -i """ + str(1000*0.001/time) 
                              )
 
                     os.system('chmod +x ' +  bashfilename)

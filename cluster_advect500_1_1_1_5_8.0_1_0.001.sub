@@ -1,0 +1,10 @@
+executable = /usr/local/bin/singularity
+            arguments  = exec /home/elawsonk/sl7.img /home/elawsonk/cellGPU-master/cluster_advect500_1_1_1_5_8.0_1_0.001.sh
+
+            output = cluster_advect500_1_1_1_5_8.0_1_0.001.out
+            error = cluster_advect500_1_1_1_5_8.0_1_0.001.err
+            log = cluster_advect500_1_1_1_5_8.0_1_0.001.log
+
+            priority = 1
+            queue
+                                
