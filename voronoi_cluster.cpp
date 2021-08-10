@@ -46,7 +46,7 @@ auto start = std::chrono::high_resolution_clock::now();
     Dscalar gamma = 1.0;
     Dscalar Lx=10; // The length of the box in the x-direction
     Dscalar Ly=numpts/Lx; // The length of box in the y-direction
-    Dscalar deltac = 5; // the magnitude of the effect of the gradient on the interaction
+    Dscalar deltac = 6; // the magnitude of the effect of the gradient on the interaction
     Dscalar degradTau = 0; // Set the time constant for degradation of biochemical. If 0 it will not degrade
     int CILswitch = 0; // Set if the gradient will couple to CIL or HIT. CIL = 1 and HIT = 0
     Dscalar cellTau = 2.0; //Set the persistence time of cells for the CIL updater
