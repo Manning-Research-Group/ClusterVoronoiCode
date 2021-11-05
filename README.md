@@ -25,12 +25,18 @@ Updater:  gradientinteractions.cpp__
 Database: DatabaseNetCDFSPVConc.cpp__
        DatabaseNetCDFSPVConc.h
                 
-With minor changes to the following:__
-Simple2DActiveCell.cpp__
-Simple2DCell.cpp__
-voronoiModelBase.cpp__
-Simple2DCell.h__
-Simple2DModel.h__
-voronoiModelBase.h__
+With minor changes to the following:
+
+Simple2DActiveCell.cpp
+
+Simple2DCell.cpp
+
+voronoiModelBase.cpp
+
+Simple2DCell.h
+
+Simple2DModel.h
+
+voronoiModelBase.h
 
 
