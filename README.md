@@ -17,20 +17,20 @@ in more details can be found on arXiv at (arxiv link once we have it).
 ## Additions and alterations to the cellGPU code
 The primary additions to the code are the following:
 
-Main: voronoi_cluster.cpp
-Model: voronoiQuadraticEnergyWithConc.cpp
-       voronoiQuadraticEnergyWithConc.h
-Updater:  gradientinteractions.cpp
-       gradientinteractions.h
-Database: DatabaseNetCDFSPVConc.cpp
+Main: voronoi_cluster.cpp__
+Model: voronoiQuadraticEnergyWithConc.cpp__
+       voronoiQuadraticEnergyWithConc.h__
+Updater:  gradientinteractions.cpp__
+       gradientinteractions.h__
+Database: DatabaseNetCDFSPVConc.cpp__
        DatabaseNetCDFSPVConc.h
                 
-With minor changes to the following:
-Simple2DActiveCell.cpp
-Simple2DCell.cpp
-voronoiModelBase.cpp
-Simple2DCell.h
-Simple2DModel.h
-voronoiModelBase.h
+With minor changes to the following:__
+Simple2DActiveCell.cpp__
+Simple2DCell.cpp__
+voronoiModelBase.cpp__
+Simple2DCell.h__
+Simple2DModel.h__
+voronoiModelBase.h__
 
 
