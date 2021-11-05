@@ -1,44 +1,34 @@
-# CellGPU
+# Concentration gradient inside cellGPU
 
-CellGPU implements GPU-accelerated algorithms to simulate off-lattice models of cells. Its current
-two main feature sets focus on a Voronoi-decomposition-based model of two-dimensional monolayers
-and on a two-dimensional dynamical version of the vertex model. CellGPU grew out of DMS'
-"DelGPU" and "VoroGuppy" projects, and the current class structure still bears some traces of that
-(please see the contributing page of the documentation, which is maintained at
-https://dmsussman.gitlab.io/cellGPUdocumentation
-for information on upcoming code refactoring and new planned features). The paper describing this
-code in more detail can currently be found on the arXiv (https://arxiv.org/abs/1702.02939), or in print (
-http://www.sciencedirect.com/science/article/pii/S0010465517301832)
+This work adds a dynamically updating biochemical signaling gradient to the cellGPU code
+which was created and mantained by Daniel Sussman.The original open-source code is found 
+at https://github.com/sussmanLab/cellGPU. The paper describing this code in more detail 
+can currently be found on the arXiv (https://arxiv.org/abs/1702.02939), or in print 
+(http://www.sciencedirect.com/science/article/pii/S0010465517301832). While this addition
+uses the cellGPU code as a base the new additions are not currently able to be used on a GPU.
 
-Information on installing the project and contributing to it is contained in the relevant
-markdown files in the base directory and in the doc/markdown directory. Documentation of the
-code is maintained via Doxygen, which can be viewed at the gitlab.io pagea linked to above, or by compiling
-the doxygen documentation in the "/doc" directory
+The signal gradient is a scalar field superimposed on top of the Voronoi model. This field
+is divded into a grid which evolves according the advection-diffusion equation using 
+the central finite difference method. At each time step, the cells will calculate a signal 
+strength by taking the average concentration of each gridpoint within their cell walls. Then
+this can be coupled to any of the cell mechanical properties. The paper describing the gradient
+in more details can be found on arXiv at (arxiv link once we have it). 
 
-A very rough outline of some of the main classes and the basic operating flow of the primary branches
-of the code can be found [here](@ref basicinfo); this page is a good place to start before diving into
-the code (Please note that if you are reading this on the Gitlab main page the links will not work...
-visit the main documentation page at https://dmsussman.gitlab.io/cellGPUdocumentation or compile
-Doxygen documentation locally).
+## Additions and alterations to the cellGPU code
+The primary additions to the code are the following:
+Main: voronoi_cluster.cpp
+Model: voronoiQuadraticEnergyWithConc.cpp
+       voronoiQuadraticEnergyWithConc.h
+Updater:  gradientinteractions.cpp
+          gradientinteractions.h
+Database: DatabaseNetCDFSPVConc.cpp
+          DatabaseNetCDFSPVConc.h
+          
+With minor changes to the following:
+Simple2DActiveCell.cpp
+Simple2DCell.cpp
+voronoiModelBase.cpp
+Simple2DCell.h
+Simple2DModel.h
+voronoiModelBase.h
 
-
-## Project information
-Here are some convenient links to a variety of general information about the cellGPU project; all
-of the below can also be accessed from the @ref projectInfo tab (links work on the gitlab.io
-documenation website)
-
-[Basic class overview](@ref basicinfo)
-
-[Installation guide](@ref install)
-
-[Sample code snippets](@ref code)
-
-[Contributing to cellGPU](@ref contrib)
-
-[Citations](@ref cite)
-
-[Open-source information](@ref license)
-
-[cellGPU version information](@ref changelog)
-
-[Contributors](@ref contributorList)
