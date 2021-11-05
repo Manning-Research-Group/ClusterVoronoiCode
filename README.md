@@ -18,12 +18,9 @@ in more details can be found on arXiv at (arxiv link once we have it).
 The primary additions to the code are the following:
 
 Main: voronoi_cluster.cpp  <br />
-Model: voronoiQuadraticEnergyWithConc.cpp  <br />
-   voronoiQuadraticEnergyWithConc.h  <br />
-Updater:  gradientinteractions.cpp  <br />
-   gradientinteractions.h  <br />
-Database: DatabaseNetCDFSPVConc.cpp  <br />
-   DatabaseNetCDFSPVConc.h
+Model: voronoiQuadraticEnergyWithConc.cpp / voronoiQuadraticEnergyWithConc.h  <br />
+Updater:  gradientinteractions.cpp / gradientinteractions.h  <br />
+Database: DatabaseNetCDFSPVConc.cpp / DatabaseNetCDFSPVConc.h
                 
 <br />                
 With minor changes to the following:  <br />
