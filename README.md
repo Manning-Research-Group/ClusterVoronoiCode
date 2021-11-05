@@ -3,9 +3,8 @@
 This work adds a dynamically updating biochemical signaling gradient to the cellGPU code
 which was created and mantained by Daniel Sussman.The original open-source code is found 
 at https://github.com/sussmanLab/cellGPU. The paper describing this code in more detail 
-can currently be found on the arXiv (https://arxiv.org/abs/1702.02939), or in print 
-(http://www.sciencedirect.com/science/article/pii/S0010465517301832). While this addition
-uses the cellGPU code as a base the new additions are not currently able to be used on a GPU.
+can currently be found on the arXiv (https://arxiv.org/abs/1702.02939), or in print (http://www.sciencedirect.com/science/article/pii/S0010465517301832). 
+While this addition uses the cellGPU code as a base the new additions are not currently able to be used on a GPU.
 
 The signal gradient is a scalar field superimposed on top of the Voronoi model. This field
 is divded into a grid which evolves according the advection-diffusion equation using 
