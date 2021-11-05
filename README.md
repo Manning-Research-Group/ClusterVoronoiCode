@@ -18,32 +18,19 @@ in more details can be found on arXiv at (arxiv link once we have it).
 The primary additions to the code are the following:
 
 Main: voronoi_cluster.cpp
-
 Model: voronoiQuadraticEnergyWithConc.cpp
-
-voronoiQuadraticEnergyWithConc.h
-       
+       voronoiQuadraticEnergyWithConc.h
 Updater:  gradientinteractions.cpp
-
-gradientinteractions.h
-          
+       gradientinteractions.h
 Database: DatabaseNetCDFSPVConc.cpp
-
-DatabaseNetCDFSPVConc.h
-          
-          
+       DatabaseNetCDFSPVConc.h
+                
 With minor changes to the following:
-
 Simple2DActiveCell.cpp
-
 Simple2DCell.cpp
-
 voronoiModelBase.cpp
-
 Simple2DCell.h
-
 Simple2DModel.h
-
 voronoiModelBase.h
 
 
