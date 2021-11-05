@@ -21,15 +21,15 @@ Main: voronoi_cluster.cpp
 
 Model: voronoiQuadraticEnergyWithConc.cpp
 
-       voronoiQuadraticEnergyWithConc.h
+voronoiQuadraticEnergyWithConc.h
        
 Updater:  gradientinteractions.cpp
 
-          gradientinteractions.h
+gradientinteractions.h
           
 Database: DatabaseNetCDFSPVConc.cpp
 
-          DatabaseNetCDFSPVConc.h
+DatabaseNetCDFSPVConc.h
           
           
 With minor changes to the following:
