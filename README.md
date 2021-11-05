@@ -19,11 +19,11 @@ The primary additions to the code are the following:
 
 Main: voronoi_cluster.cpp  <br />
 Model: voronoiQuadraticEnergyWithConc.cpp  <br />
-  voronoiQuadraticEnergyWithConc.h  <br />
+   voronoiQuadraticEnergyWithConc.h  <br />
 Updater:  gradientinteractions.cpp  <br />
-  gradientinteractions.h  <br />
+   gradientinteractions.h  <br />
 Database: DatabaseNetCDFSPVConc.cpp  <br />
-  DatabaseNetCDFSPVConc.h
+   DatabaseNetCDFSPVConc.h
                 
 <br />                
 With minor changes to the following:  <br />
